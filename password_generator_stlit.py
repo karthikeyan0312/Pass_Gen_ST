@@ -7,17 +7,7 @@ def passwd():
     p = "".join(random.sample(s,20))
     return p
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        
-    }
-   
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 st.title(" Password Generator")
 st.markdown("***")
 placeholder = st.empty()
