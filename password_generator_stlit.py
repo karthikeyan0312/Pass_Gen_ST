@@ -1,4 +1,3 @@
-from nltk import text
 import streamlit as st
 import random
 def passwd():
